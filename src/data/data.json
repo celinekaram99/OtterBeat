@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "artist": "Anna Zak",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Money Honey",
+        "duration": "3:11",
+        "releaseYear": 2018
+      },
+      {
+        "_id": 2,
+        "title": "My Love",
+        "duration": "3:25",
+        "releaseYear": 2019
+      },
+      {
+        "_id": 3,
+        "title": "Neshima",
+        "duration": "3:16",
+        "releaseYear": 2020
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "artist": "David Guetta",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Titanium",
+        "duration": "4:05",
+        "releaseYear": 2011
+      },
+      {
+        "_id": 2,
+        "title": "Hey Mama",
+        "duration": "3:12",
+        "releaseYear": 2014
+      },
+      {
+        "_id": 3,
+        "title": "Without You",
+        "duration": "3:28",
+        "releaseYear": 2011
+      }
+    ]
+  }
+]
