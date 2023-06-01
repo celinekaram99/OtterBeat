@@ -49,37 +49,35 @@
 
 
 
-
-// eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FavoriteBorder, Favorite } from "@mui/icons-material";
 
 export default function Feed({ artist, song }) {
   const [isFavorite, setIsFavorite] = useState(false);
 
-  useEffect(() => {
-    const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
-    const isSongFavorite = favorites.some((fav) => fav._id === song._id);
-    setIsFavorite(isSongFavorite);
-  }, [song._id]);
-
   const toggleFavorite = () => {
-    const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
-    if (!isFavorite) {
-      favorites.push(song);
-    } else {
-      const index = favorites.findIndex((fav) => fav._id === song._id);
-      if (index !== -1) {
-        favorites.splice(index, 1);
-      }
-    }
-    localStorage.setItem("favorites", JSON.stringify(favorites));
     setIsFavorite(!isFavorite);
+    if (!isFavorite) {
+      addFavorite(song);
+    } else {
+      removeFavorite(song);
+    }
+  };
+
+  const addFavorite = (song) => {
+    const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    favorites.push(song);
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+  };
+
+  const removeFavorite = (song) => {
+    let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+    favorites = favorites.filter((fav) => fav._id !== song._id);
+    localStorage.setItem("favorites", JSON.stringify(favorites));
   };
 
   return (
     <div className="bg-light-blue dib br3 fl w-25 pa3 ma2 grow bw2 shadow-5">
-    {/* // <div className="fl w-50 w-25-m w-20-l pa2 bg-light-blue br2 ma1.5 shadow-5"> */}
       <div>
         <h1>{artist}</h1>
         <div key={song._id}>
@@ -91,7 +89,7 @@ export default function Feed({ artist, song }) {
       </div>
 
       <button
-        className={`f4 mt2 ${isFavorite ? "red" : ""} bg-light-white br2`}
+        className="f4 mt2 red bg-light-white br2"
         onClick={toggleFavorite}
       >
         {isFavorite ? <Favorite /> : <FavoriteBorder />}
