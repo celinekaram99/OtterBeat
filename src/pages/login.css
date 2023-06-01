@@ -1,7 +1,7 @@
 /* Login page */
 
-/* body{
-  background-color: #55fa6b;
+ body{
+  background: linear-gradient(to left, rgba(7,27,81,1) 0%, rgb(0,128,128,1) 100%);
   margin: 0;
   display: flex;
   place-items: center;
@@ -9,7 +9,7 @@
   min-height: 100vh;
 }
 #root {
-  color: #49e60b;
+  color: rgba(7,27,81,1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,9 +23,7 @@
 
 h1 {
   font-size: 4.2em;
-  /* margin-bottom: 20px; */
-  /* line-height: 1.1; */
-/* }
+ }
 
 form {
   display: flex;
@@ -35,17 +33,19 @@ form {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-right: 0%
 }
 
 label {
   margin-bottom: 10px;
   font-weight: bold;
+  padding-right: 13%;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #333;
-  color: #49e60b;
+  background-color: #e4dfdf;
+  color: rgba(7,27,81,1);
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -55,7 +55,7 @@ button {
 }
 
 button:hover {
-  background-color: #f3f3f3;
+  background-color: #f3f3f370;
 } 
 
 button:focus {
@@ -65,14 +65,17 @@ button:focus {
 button:active {
   transform: translateY(1px);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-} */
+} 
 
 
 
   /* phones */
-
-/* @media (prefers-reduced-motion: no-preference) {
+/* 
+@media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
 
 }
-}  */
+ } */
+
+
+ 

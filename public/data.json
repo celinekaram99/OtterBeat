@@ -1,0 +1,362 @@
+[
+  {
+    "_id": 1,
+    "artist": "Anna Zak",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Money Honey",
+        "duration": "3:11",
+        "releaseYear": 2018
+      },
+      {
+        "_id": 2,
+        "title": "My Love",
+        "duration": "3:25",
+        "releaseYear": 2019
+      },
+      {
+        "_id": 3,
+        "title": "Neshima",
+        "duration": "3:16",
+        "releaseYear": 2020
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "artist": "David Guetta",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Titanium",
+        "duration": "4:05",
+        "releaseYear": 2011
+      },
+      {
+        "_id": 2,
+        "title": "Hey Mama",
+        "duration": "3:12",
+        "releaseYear": 2014
+      },
+      {
+        "_id": 3,
+        "title": "Without You",
+        "duration": "3:28",
+        "releaseYear": 2011
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "artist": "Adele",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Rolling in the Deep",
+        "duration": "3:48",
+        "releaseYear": 2010
+      },
+      {
+        "_id": 2,
+        "title": "Someone Like You",
+        "duration": "4:45",
+        "releaseYear": 2011
+      },
+      {
+        "_id": 3,
+        "title": "Hello",
+        "duration": "4:55",
+        "releaseYear": 2015
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "artist": "Ed Sheeran",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Shape of You",
+        "duration": "3:53",
+        "releaseYear": 2017
+      },
+      {
+        "_id": 2,
+        "title": "Thinking Out Loud",
+        "duration": "4:41",
+        "releaseYear": 2014
+      },
+      {
+        "_id": 3,
+        "title": "Photograph",
+        "duration": "4:19",
+        "releaseYear": 2014
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "artist": "Beyoncé",
+    "songs": [
+      {
+        "_id": 1,
+        "title": "Single Ladies (Put a Ring on It)",
+        "duration": "3:13",
+        "releaseYear": 2008
+      },
+      {
+        "_id": 2,
+        "title": "Crazy in Love",
+        "duration": "3:56",
+        "releaseYear": 2003
+      },
+      {
+        "_id": 3,
+        "title": "Halo",
+        "duration": "4:21",
+        "releaseYear": 2008
+      }
+    ]
+  },
+    {
+      "_id": 6,
+      "artist": "Justin Bieber",
+      "songs": [
+        {
+          "_id": 1,
+          "title": "Baby",
+          "duration": "3:34",
+          "releaseYear": 2010
+        },
+        {
+          "_id": 2,
+          "title": "Sorry",
+          "duration": "3:20",
+          "releaseYear": 2015
+        },
+        {
+          "_id": 3,
+          "title": "Love Yourself",
+          "duration": "3:53",
+          "releaseYear": 2015
+        }
+      ]
+    },
+    {
+      "_id": 7,
+      "artist": "Taylor Swift",
+      "songs": [
+        {
+          "_id": 1,
+          "title": "Love Story",
+          "duration": "3:56",
+          "releaseYear": 2008
+        },
+        {
+          "_id": 2,
+          "title": "Blank Space",
+          "duration": "3:51",
+          "releaseYear": 2014
+        },
+        {
+          "_id": 3,
+          "title": "Shake It Off",
+          "duration": "3:39",
+          "releaseYear": 2014
+        }
+      ]
+    },
+    {
+      "_id": 8,
+      "artist": "Rihanna",
+      "songs": [
+        {
+          "_id": 1,
+          "title": "Umbrella",
+          "duration": "4:35",
+          "releaseYear": 2007
+        },
+        {
+          "_id": 2,
+          "title": "Diamonds",
+          "duration": "3:45",
+          "releaseYear": 2012
+        },
+        {
+          "_id": 3,
+          "title": "We Found Love",
+          "duration": "3:35",
+          "releaseYear": 2011
+        }
+      ]
+    },
+    {
+      "_id": 9,
+      "artist": "Katy Perry",
+      "songs": [
+        {
+          "_id": 1,
+          "title": "Firework",
+          "duration": "3:48",
+          "releaseYear": 2010
+        },
+        {
+          "_id": 2,
+          "title": "Roar",
+          "duration": "3:42",
+          "releaseYear": 2013
+        },
+        {
+          "_id": 3,
+          "title": "Dark Horse",
+          "duration": "3:35",
+          "releaseYear": 2013
+        }
+      ]
+    },
+    {
+      "_id": 10,
+      "artist": "Drake",
+      "songs": [
+        {
+          "_id": 1,
+          "title": "One Dance",
+          "duration": "2:54",
+          "releaseYear": 2016
+        },
+        {
+          "_id": 2,
+          "title": "God's Plan",
+          "duration": "3:18",
+          "releaseYear": 2018
+        },
+        {
+          "_id": 3,
+          "title": "In My Feelings",
+          "duration": "3:38",
+          "releaseYear": 2018
+        }
+      ]
+    },
+      {
+        "_id": 11,
+        "artist": "Ariana Grande",
+        "songs": [
+          {
+            "_id": 1,
+            "title": "Thank U, Next",
+            "duration": "3:27",
+            "releaseYear": 2018
+          },
+          {
+            "_id": 2,
+            "title": "7 Rings",
+            "duration": "2:58",
+            "releaseYear": 2019
+          },
+          {
+            "_id": 3,
+            "title": "Positions",
+            "duration": "2:52",
+            "releaseYear": 2020
+          }
+        ]
+      },
+      {
+        "_id": 12,
+        "artist": "Post Malone",
+        "songs": [
+          {
+            "_id": 1,
+            "title": "Circles",
+            "duration": "3:34",
+            "releaseYear": 2019
+          },
+          {
+            "_id": 2,
+            "title": "Rockstar",
+            "duration": "3:38",
+            "releaseYear": 2017
+          },
+          {
+            "_id": 3,
+            "title": "Sunflower",
+            "duration": "2:38",
+            "releaseYear": 2018
+          }
+        ]
+      },
+      {
+        "_id": 13,
+        "artist": "Billie Eilish",
+        "songs": [
+          {
+            "_id": 1,
+            "title": "Bad Guy",
+            "duration": "3:14",
+            "releaseYear": 2019
+          },
+          {
+            "_id": 2,
+            "title": "Ocean Eyes",
+            "duration": "3:21",
+            "releaseYear": 2016
+          },
+          {
+            "_id": 3,
+            "title": "Therefore I Am",
+            "duration": "2:54",
+            "releaseYear": 2020
+          }
+        ]
+      },
+      {
+        "_id": 14,
+        "artist": "The Weeknd",
+        "songs": [
+          {
+            "_id": 1,
+            "title": "Blinding Lights",
+            "duration": "3:20",
+            "releaseYear": 2019
+          },
+          {
+            "_id": 2,
+            "title": "Can't Feel My Face",
+            "duration": "3:33",
+            "releaseYear": 2015
+          },
+          {
+            "_id": 3,
+            "title": "Starboy",
+            "duration": "3:50",
+            "releaseYear": 2016
+          }
+        ]
+      },
+      {
+        "_id": 15,
+        "artist": "Shawn Mendes",
+        "songs": [
+          {
+            "_id": 1,
+            "title": "Stitches",
+            "duration": "3:25",
+            "releaseYear": 2015
+          },
+          {
+            "_id": 2,
+            "title": "Señorita",
+            "duration": "3:11",
+            "releaseYear": 2019
+          },
+          {
+            "_id": 3,
+            "title": "In My Blood",
+            "duration": "3:31",
+            "releaseYear": 2018
+          }
+        ]
+      }
+]

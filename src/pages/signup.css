@@ -1,0 +1,81 @@
+/* Login page */
+
+body{
+    background: linear-gradient(to left, rgba(7,27,81,1) 0%, rgb(0,128,128,1) 100%);
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  #root {
+    color: rgba(7,27,81,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4.2em;
+   }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-right: 0%
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-right: 13%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e4dfdf;
+    color: rgba(7,27,81,1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #f3f3f370;
+  } 
+  
+  button:focus {
+    outline: none;
+  } 
+  
+  button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  } 
+  
+  
+  
+    /* phones */
+  /* 
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+  
+  }
+   } */
+  
+  
+   
